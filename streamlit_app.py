@@ -21,5 +21,5 @@ with open ("model.pkl",'rb') as doc:
 
 
 prediccion = model.predict(np.array([[assess, bdrms, lotsize, sqrft, colonial]]))
-if st.button("Predecir:"):
-    st.write(f"El precio es de {prediccion[0]}")
+if st.button("Calcular:"):
+    st.write(f"El valor es: {prediccion[0]}")
