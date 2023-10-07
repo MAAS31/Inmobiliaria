@@ -8,7 +8,7 @@ st.title("Inmobiliaria")
 
 st.divider()
 
-st.write("Ingrese los datos")
+st.write("Seleccione el rango de datos:")
 
 assess= st.slider("Assess",0,20)
 bdrms= st.slider("Bdrms",0,50)
