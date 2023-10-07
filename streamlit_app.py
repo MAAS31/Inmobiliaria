@@ -4,7 +4,7 @@ import numpy as np
 from catboost import CatBoostRegressor
 import sklearn
 
-st.title("Modelo Boosting")
+st.title("Inmobiliaria")
 
 st.divider()
 
